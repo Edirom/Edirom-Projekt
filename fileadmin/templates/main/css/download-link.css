@@ -13,11 +13,11 @@ a.download-link span.download-content {
 }
 
 .download-editor {
-	background: url("/fileadmin/pix/download_bar_green.gif") no-repeat scroll 0 0 transparent;
+	background: url("/edirom-projekt/fileadmin/pix/download_bar_green.gif") no-repeat scroll 0 0 transparent;
 }
 
 .download-updater {
-	background: url("/fileadmin/pix/download_bar_blue.gif") no-repeat scroll 0 0 transparent;
+	background: url("/edirom-projekt/fileadmin/pix/download_bar_blue.gif") no-repeat scroll 0 0 transparent;
 }
 
 a.download-link, a.download-link:link, a.download-link:visited {
