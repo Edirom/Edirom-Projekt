@@ -1,0 +1,103 @@
+@import url(main.css);
+
+@import url(header.css);
+
+@import url(footer.css);
+
+@import url(top.css);
+
+@import url(content.css);
+
+@import url(left.css);
+
+
+
+#left-menu-box {
+	margin: 0;
+	padding: 6px 6px 0 6px;
+}
+
+#middle-marker-box, #right-marker-box {
+	margin: 6px;
+	padding: 0;
+}
+
+#left-marker-box  {
+	margin: 0 6px;
+	padding: 0;
+}
+
+#left-marker, #middle-marker, #right-marker {
+	margin: 0;
+	padding: 6px;
+}
+
+#left, #middle, #right, #inner-content-wrapper {
+	position: relative;
+	overflow: visible;
+}
+
+#inner-content-wrapper {
+	float: left;
+	margin: 0;
+	width: 735px;
+}
+
+#left {
+	float: left;
+	width: 245px;
+	z-index: 4;
+	background: #FFFFFF;
+}
+
+#left-content {
+	width: 245px;
+}
+
+#middle {
+	float: right;
+	width: 490px;
+	z-index: 2;
+	background: #FFFFFF;
+}
+
+#middle-content {
+	width: 490px;
+}
+
+/* #middle-content .tx-jppageteaser-pi1 {
+	-moz-column-count:2;
+	-webkit-column-count:2;
+}*/
+
+#right {
+	float: right;
+	width: 245px;
+	z-index: 6;
+	background: #FFFFFF;
+}
+
+#right-content {
+	width: 245px;
+}
+
+#header, #outer-wrapper, #footer {
+	width: 980px;
+}
+
+#header-img {
+	width: 958px;
+}
+
+.cleaner {
+	clear:both;
+	height: 1px;
+	font-size: 1px;
+	line-height: 0px;
+	display: block;
+	visibility: hidden;
+	border: 0; 
+	padding: 0;
+	margin: -1.0em 0 0 0;
+	background: transparent;
+}

@@ -1,0 +1,62 @@
+@import url(main.css);
+@import url(header.css);
+@import url(footer.css);
+@import url(top.css);
+@import url(content.css);
+@import url(left.css);
+@import url(breadcrumb.css);
+@import url(contentFrames.css);
+@import url(pageteaser.css);
+@import url(download-link.css);
+@import url(mailform.css);
+
+/* @import url(newsteaser.css); */
+
+
+/* #top-content {
+	float:left;
+	
+} bwb 2011-09-26*/
+
+#top-news {
+	max-width:300px;
+	width:232px;
+	max-height: 600px;
+	top:0px;
+	float:right;
+	margin:6px;
+	margin-top:0px;
+        clear: none;
+}
+
+/* ============= */
+
+#middle-content, #left-content, #right-content, #border-content {
+	display: block;
+	float:left;
+	width:485px;
+	padding:6px;
+}
+
+#left-content, #border-content {
+	right:0px;
+	float:right;
+}
+
+
+
+#inner-content-wrapper{
+    padding:3px;
+}
+
+
+.csc-header{
+clear:none;
+}
+
+.csc-frame-rulerBefore {
+border-top: 1px solid gray;
+}
+.csc-frame-rulerAfter {
+border-bottom: 1px solid gray;
+}

@@ -1,0 +1,36 @@
+.csc-mailform{
+    display:table;
+}
+
+.csc-mailform-field{
+    display:table-row;
+    height:30px;
+    width:200px;
+
+}
+
+.mf-input{
+    width:250px;
+}
+
+.mf-radio{
+
+}
+
+.csc-mailform-field label, .csc-mailform-field > input{
+    display:table-cell;
+    vertical-align:top;
+}
+
+.csc-mailform-radio label{
+    display:inline;
+
+}
+
+.csc-mailform-field legend{
+
+}
+
+.csc-mailform-field label[for=mailformMoDi], .csc-mailform-field label[for=mailformMi], .csc-mailform-field label[for=mailformDoFr]{
+    visibility:hidden;
+}

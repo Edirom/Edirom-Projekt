@@ -1,0 +1,33 @@
+#header {
+	position: absolute;
+	width:1000px;
+	left: 0;
+	top: 0px;
+	height: 125px;
+	background: #FFFFFF;
+	overflow:hidden;
+}
+
+#header-img {
+	position: absolute;
+	left: 6px;
+	top: 6px;
+	/* padding-top: 10px;*/
+	padding-left: 10px;	
+	background-image:url(../img/notenlinien.jpg);
+	background-repeat: repeat-x;
+	overflow:hidden;
+	border: 1px solid #666666;
+	width: 976px !important;
+	height: 88px;
+}
+
+#ext-logos {
+	position: absolute;
+	right: 12px;
+	top: 12px;
+	padding: 5px;
+	border: 1px solid #999999;
+	background-color: #ffffff;
+  	background-color: rgba(255, 255, 255, 0.5);  /* FF3+, Saf3+, Opera 10.10+, Chrome */
+}

@@ -1,0 +1,19 @@
+#breadcrumb {
+	height:18px;
+	margin: 3px 6px;
+	background-color:#f1f1f1;
+}
+
+#breadcrumb * {
+	font-size: 11px !important;
+}
+
+#breadcrumb span {
+	padding-left: 12px;
+}
+
+#breadcrumb > ul {
+    padding: 1px 6px 1px 6px;
+    margin: 0px;
+    display: inline;
+}

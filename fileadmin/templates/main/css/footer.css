@@ -1,0 +1,47 @@
+#footer {
+	position: absolute;
+	left: 0;
+	clear: both;
+	background: #dddddd;
+	display:block;
+	height: 10px;
+}
+
+#footer-box {
+	position: relative;
+/*bwb	margin: 0px -1px 10px -1px;
+	border: 1px solid #666666;
+	border-top: none;
+bwb 2010-07 */
+	background-color: #ffffff;
+}
+
+#footer-text {
+	margin: 0;
+	padding: 6px 6px 10px 6px;
+	background: #FFFFFF;
+	text-align: center;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #ededed;
+	font-size: 9px;
+	line-height: normal;
+	color: #666666;
+}
+
+#meta-menu {
+	display: inline;
+	padding: 0px;
+}
+
+
+#meta-menu li {
+	display:inline;
+}
+
+#meta-menu li:before {
+	content: "|";
+}
+#meta-menu li:after {
+	content: "|";
+}

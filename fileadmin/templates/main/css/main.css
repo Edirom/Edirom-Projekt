@@ -1,0 +1,64 @@
+@import url(tt_news.css);
+
+body, html {
+	position: relative;
+	text-align: center;
+	border: 0;
+	margin: 0 auto;
+	padding: 0;
+	width: 100%;
+	height: 101%;
+	font: normal 100.01% Verdana, Arial, Helvetica, sans-serif;
+	background: #ededed;
+	background: #dddddd;
+/*	background: #555555; */
+}
+
+#outer-wrapper {
+	position: relative;
+	z-index: 0;
+	text-align: left;
+	margin: 6px auto;
+	padding-bottom: 160px;
+	height: auto;
+	background: #FFFFFF;
+	border: 1px solid #666666; /*bwb 2010-07*/
+	/*CSS3*/
+	-moz-box-shadow: 3px 3px 10px #000; /* FF3.5+ */
+	-webkit-box-shadow: 3px 3px 10px #000; /* Saf3.0+, Chrome */
+	box-shadow: 3px 3px 10px #000; /* Opera 10.5, IE 9.0 */
+}
+
+#outer-content-wrapper {
+    position: relative;
+    top: 174px;
+    top: 142px;
+    top: 129px;
+    left: 0;
+    width: 100%;
+    height: auto;
+    background: #FFFFFF;
+    clear: both;
+
+   /* background-image: url("../img/2011-04_bg.jpg");
+    background-repeat: repeat-y;
+    margin-top:3px;
+    top: 147px;*/
+
+}
+
+#breadcrumb li {
+	display: inline;
+}
+
+#breadcrumb .spot5 {
+	font-weight: bold;
+}
+
+#outer-wrapper, #footer {
+    width: 1000px;
+}
+
+#top-content{
+    padding: 6px;	
+}

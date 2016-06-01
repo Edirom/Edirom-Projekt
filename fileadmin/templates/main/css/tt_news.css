@@ -1,0 +1,23 @@
+/* ====NEWS-LATEST==== */
+.news-latest-item h2 {
+	font-size: 12px;
+}
+
+.news-latest-date, .news-list-date {
+	float:right;
+	font-size:11px;
+}
+
+.news-latest-item img{
+	float:left;
+	max-width:65px;
+}
+
+.news-latest-item p {
+        margin-left: 0px;
+ }
+
+.news-latest-gotoarchive {
+	font-size:11px;
+	text-align:right;
+}

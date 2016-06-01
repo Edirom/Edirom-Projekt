@@ -1,0 +1,78 @@
+@import url(main.css);
+@import url(header.css);
+@import url(footer.css);
+@import url(top.css);
+@import url(content.css);
+@import url(left.css);
+@import url(newsteaser.css);
+@import url(contentFrames.css);
+@import url(breadcrumb.css);
+@import url(pageteaser.css);
+@import url(download-link.css);
+@import url(mailform.css);
+
+#outer-content-wrapper{
+    background-image: url("../img/2011-04_bg.jpg");
+    background-repeat: repeat-y;
+    margin-top:3px;
+    top: 147px;
+}
+
+#outer-wrapper{
+    padding-bottom:180px;
+}
+
+
+
+#left-column{
+	float: left;
+	width: 744px;
+	padding:3px;
+}
+
+#top-right{
+	width:232px;
+	float:left;
+	/*background-color:#eeeeee;*/
+	padding: 6px;
+}
+
+
+#top-content {
+	max-width:100%;
+	/*float:left; bwb 2011-09-26*/
+	margin: 0px 0px 6px 0px;
+	padding:6px;
+}
+
+/*inner-mid-content children*/
+#mid-left, #mid-right {
+    padding:6px;
+}
+
+#mid-left{
+    float:left;
+}
+
+#mid-right{
+    float:right;
+    max-width:488px;
+}
+
+/* ============= */
+
+#middle-content, #left-content, #right-content, #border-content {
+	display: block;
+	float:left;
+	width:360px;
+	padding:6px;
+}
+
+#left-content, #border-content {
+	right:0px;
+	float:right;
+}
+
+.tx-seminars-pi1-listrow table {
+    width:985px;
+}
