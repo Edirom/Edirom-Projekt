@@ -1,0 +1,219 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Online Chopin Variorum Edition | Chopin Online</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/static/CACHE/css/main-ocve.948bb5115456.css" type="text/css" />
+
+    
+
+    
+
+    <script src="/static/vendor/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="//use.typekit.net/caf1nkf.js"></script>
+    <script type="text/javascript">try {
+        Typekit.load();
+    } catch (e) {}
+    </script>
+
+    <script src="/static/vendor/pdfjs-dist/web/compatibility.js"></script>
+<script src="/static/vendor/pdfjs-dist/build/pdf.js"></script>
+<script src="/static/javascripts/display_pdf.js"></script>
+
+    <!-- Favicon -->
+        
+    <link rel="apple-touch-icon" sizes="57x57" href="/static/images/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/static/images/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/static/images/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/static/images/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/static/images/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/static/images/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/static/images/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/static/images/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/static/images/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/static/images/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/static/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/static/images/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/static/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/static/images/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/static/images/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <script src="/static/vendor/modernizr/modernizr.js"></script>
+</head>
+
+<body class="ocve-page">
+
+    <header class="header header-ocve">
+    
+    <div class="row">
+    
+    <div class="large-10 columns">
+        <h1>
+            <a href="/ocve">OCVE</a>
+        </h1>
+        <h2>
+            <a href="/ocve">Online Chopin Variorum Edition</a>
+        </h2>
+    </div>
+    
+    
+    <div class="large-2 columns">
+        
+            <div class="user-box right">
+    <a href="#" class="tiny button radius" data-dropdown="login-drop" data-options="align:left" aria-controls="login-drop" aria-expanded="false"><i class="fa fa-user"></i> Login</a>
+    <div id="login-drop" class="f-dropdown content medium" data-dropdown-content aria-hidden="true" tabindex="-1">
+        <form action="/ocve/accounts/login/" method="post" id="login-form">
+            <input type='hidden' name='csrfmiddlewaretoken' value='Qyb6vdgfiiWw6bNNPtbBZUgH48yuetTI' />
+            <input id="id_username" name="username" type="text" placeholder="Username">
+            <input id="id_password" name="password" type="password" placeholder="Password">
+            <button type="submit" class="tiny button radius expand">Log in</button>
+            <input type="hidden" name="next" value="/ocve/">
+        </form>
+        <p><em><a href="/ocve/accounts/password/reset">Forgot your password?</a></em></p>
+
+        <hr>
+
+        <a href="/ocve/accounts/register" class="tiny button radius secondary expand">Create an account</a>
+    </div>
+</div>
+
+<script type="text/javascript">
+    document.getElementById('id_username');
+</script>
+        
+    </div>
+    
+</div>
+
+    
+    </header>
+
+    
+<div class="contain-to-grid">
+    <nav class="top-bar" data-topbar id="primary-navigation">
+        <ul class="title-area">
+            <li class="name">
+                <!-- empty -->
+            </li>
+            <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
+        </ul>
+
+        <section class="top-bar-section">
+            
+            
+            
+
+<ul class="left header-menu header-menu-aco">
+    <li class="active">
+        <a href="/ocve/">Online Chopin Variorum Edition</a>
+    </li>
+    <li class="divider"></li>
+
+    
+    <li class="">
+        <a href="/ocve/about/">About</a>
+    </li>
+    <li class="divider"></li>
+    
+    <li class="">
+        <a href="/ocve/contexts/">Contexts</a>
+    </li>
+    <li class="divider"></li>
+    
+    <li class="">
+        <a href="/ocve/using-ocve/">Using OCVE</a>
+    </li>
+    <li class="divider"></li>
+    
+    <li class="">
+        <a href="/ocve/browse/">View OCVE</a>
+    </li>
+    <li class="divider"></li>
+    
+</ul>
+
+            
+            
+        </section>
+    </nav>
+</div>
+
+    
+    <section class="main content-section">
+        <div class="row clear">
+            <div class="large-12 columns">
+    
+    
+    
+    
+    
+
+    
+<div class="rich-text"><div><p>The Online Chopin Variorum Edition has been funded by the <a href="https://www.mellon.org/">Andrew W. Mellon Foundation</a> in three successive phases from 2003 to 2015. It provides digital images of the manuscripts and first editions of select works by the Polish composer Fryderyk Chopin. Its principal aim is to facilitate and enhance comparative analysis of these primary sources, attaining a degree of flexibility beyond that of extant printed editions of Chopin’s music and indeed of any composer to date. Users are guided in their consultation of the sources by the background information and sample ‘critical commentaries’ provided by the project team. The end
+result is a new type of ‘musical edition’, one that users themselves construct dynamically and interactively.</p><p>OCVE has exploited emerging technical capacities for text/image comparison as well as recent musicological advances. It is one of three projects featured in the Chopin Online resource.</p><br/></div></div>
+
+
+    
+            </div>
+        </div>
+    </section>
+    
+
+    <footer class="footer">
+        
+        
+<div class="row">
+    <div class="large-3 columns">
+        <div class="footer-menus">
+            <ul class="footer-menu">
+                <li><a href="/" class="chopin-link">Chopin Online</a></li>
+                <li><a href="/aco/" class="annot-link">AC Online</a></li>
+                <li><a href="/cfeo/" class="cfeo-link">CFEO</a></li>
+                <li><a href="/ocve/" class="ocve-link">OCVE</a></li>
+            </ul>
+            <ul class="footer-menu">
+                <li><a href="None">Contact</a></li>
+                <li><a href="None">Privacy</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="large-9 columns">
+        <ul class="footer-logos no-bullet inline-list right">
+            <li><a class="svg" href="//mellon.org/"><img alt="The Andrew W. Mellon's Foundation" src="/static/images/mellon-logo.svg"></a></li>
+            <li><a class="logo cambridge" href="//cam.ac.uk"><img alt="University of Cambridge" src="/static/images/logo-cambridge.png"></a></li>
+            <li><a class="kcl-logo" href="//www.kcl.ac.uk/artshums/depts/ddh/"><img alt="King's College London Digital Humanities" src="/static/images/KCL-logo-BW.svg"></a></li>
+        </ul>
+    </div>
+</div>
+
+        
+    </footer>
+
+    
+    <div class="collections-inline">
+        <a href="#" class="close-collections-inline"><span class="fa fa-angle-double-down"></span></a>
+        <div class="inner"></div>
+    </div>
+    
+
+    
+    <script src="/static/vendor/foundation/js/vendor/fastclick.js"></script>
+    <script src="/static/vendor/foundation/js/foundation.min.js"></script>
+    <script src="/static/javascripts/app.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function () {
+        $(document).foundation();
+    });
+    </script>
+    
+
+    
+</body>
+</html>
