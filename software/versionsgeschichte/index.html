@@ -2,240 +2,416 @@
 <!DOCTYPE html
      PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
      "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xml:lang="de" lang="de" xmlns="http://www.w3.org/1999/xhtml">
-<head>
-
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<!-- 
+<html lang="de" xml:lang="de" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+        <!-- 
 	This website is powered by TYPO3 - inspiring people to share!
 	TYPO3 is a free open source Content Management Framework initially created by Kasper Skaarhoj and licensed under GNU/GPL.
 	TYPO3 is copyright 1998-2012 of Kasper Skaarhoj. Extensions are copyright of their respective owners.
 	Information and contribution at http://typo3.org/
 -->
-
-
-<link rel="shortcut icon" href="http://www.edirom.de/edirom-projekt/fileadmin/templates/pix/favicon.ico" type="image/x-icon; charset=binary" />
-<link rel="icon" href="http://www.edirom.de/edirom-projekt/fileadmin/templates/pix/favicon.ico" type="image/x-icon; charset=binary" />
-<title>Edirom: Versionsgeschichte</title>
-<meta name="generator" content="TYPO3 4.5 CMS" />
-<meta name="google-site-verification" content="F3aihDWAucG8BpqywaMihzn8vr0HkZmfls8Yg7WE5u4" />
-<meta name="author" content="Edirom - Projekt digitale Musikedition" />
-<meta name="copyright" content="Edirom - Projekt digitale Musikedition" />
-<meta name="keywords" content="Edirom, digital, digitale, Musikedition, Musik, Edition, music, edition, music-edition" />
-<meta name="description" content="Edirom - Projekt digitale Musikedition" />
-<meta name="robots" content="INDEX,FOLLOW" />
-
-<link rel="stylesheet" type="text/css" href="/edirom-projekt/typo3temp/stylesheet_0e95a7fbbd.css?1347447097" media="all" />
-<link rel="stylesheet" type="text/css" href="/edirom-projekt/typo3conf/ext/seminars/pi1/seminars_pi1.css?1341486559" media="all" />
-<link rel="stylesheet" type="text/css" href="/edirom-projekt/typo3conf/ext/air_filemanager/pi1/gallery.css?1346392304" media="all" />
-<link rel="stylesheet" type="text/css" href="/edirom-projekt/fileadmin/templates/main/css/print.css?1310645728" media="print" title="print_stylesheet" />
-<link rel="stylesheet" type="text/css" href="/edirom-projekt/fileadmin/templates/main/css/4feldertafelNews.css?1343830877" media="screen" />
-
-
-
-<script src="/edirom-projekt/typo3conf/ext/seminars/pi1/tx_seminars_pi1.js?1341486559" type="text/javascript"></script>
-<script src="/edirom-projekt/typo3temp/javascript_0b12553063.js?1227609738" type="text/javascript"></script>
-
-
-<link rel="stylesheet" href="/edirom-projekt/typo3conf/ext/pmkslimbox/res/styles/slimboxplus.css" type="text/css" media="screen" /><script type="text/javascript" src="/edirom-projekt/typo3conf/ext/air_filemanager/pi1/jquery-1.2.2.min.js"></script><script type="text/javascript" src="/edirom-projekt/typo3conf/ext/air_filemanager/pi1/air_filemanager.js"></script>
-
-<script type="text/javascript" src="/edirom-projekt/typo3conf/ext/pmkslimbox/res/scripts/mootools-1.2.1.js"></script>
-<script type="text/javascript" src="/edirom-projekt/typo3conf/ext/pmkslimbox/res/scripts/slimboxplus.js"></script>
-<script type="text/javascript">
-/*<![CDATA[*/
-<!--
-Slimbox.scanPage = function() {var links = $$("a").filter(function(el) {return el.rel && el.rel.test(/^lightbox/i);});$$(links).slimbox({resizeDuration: 400, resizeTransition: Fx.Transitions.Sine.easeInOut, opacity: 0.8, opacityDuration: 500, loop: 1, initialWidth: 250, initialHeight: 250, animateCaption: 1, showCounter: 1, defaultIframeWidth: 500, defaultIframeHeight: 300, iframeScrolling: 'auto', enablePrintButton: 0, enableSaveButton: 0,counterText: 'Seite  {x} von {y}', psScriptPath: 'http://www.edirom.de/typo3conf/ext/pmkslimbox/savefile.php'}, null, function(el) {return (this == el) || ((this.rel.length > 8) && (this.rel == el.rel));});};window.addEvent("domready", Slimbox.scanPage);
-// -->
-/*]]>*/
-</script>
-<script type="text/javascript" src="/edirom-projekt/typo3conf/ext/pmkslimbox/res/scripts/slimboxMagnify.js"></script>
-<script type="text/javascript">
-/*<![CDATA[*/
-<!--
-window.addEvent('domready', slimboxMagnify.init.bind(slimboxMagnify,{magnifyDuration: 400, magnifyTransition: Fx.Transitions.Sine.easeInOut, magnifyImgMarginB: 8, magnifyImgMarginR: 8,magnifyImg: 'typo3conf/ext/pmkslimbox/res/images/magnify.png', magnifyImgWidth: 24, magnifyImgHeight: 24,magnifyTitle: 'Klicken Sie auf das Bild um es zu vergrößern'}));
-// -->
-/*]]>*/
-</script>
-
-
-</head>
-<body>
-
-
-<div id="outer-wrapper">
-    <div id="header">
-        <div id="header-img"><a href="/edirom-projekt/index.html"><img src="/edirom-projekt/fileadmin/templates/main/img/Edirom-Schriftzug.gif" width="200" height="88" border="0" alt="Edirom - Home" /></a></div>
-        <div id="ext-logos">
-            <span><a href="http://www.hfm-detmold.de/" target="_blank"><img src="/edirom-projekt/typo3temp/pics/717b03c7b7.png" width="115" height="30" border="0" alt="Hochschule für Musik Detmold" /></a></span>
-            <span><a href="http://www.uni-paderborn.de" target="_blank"><img src="/edirom-projekt/typo3temp/pics/b67729faeb.png" width="103" height="30" border="0" alt="Universität Paderborn" /></a></span>
-            <span><a href="http://www.dfg.de" target="_blank"><img src="/edirom-projekt/typo3temp/pics/c25ecee0e2.png" width="81" height="30" border="0" alt="Deutsche Forschungsgemeinschaft" /></a></span>
-        </div>
-    </div>
-    <div id="top">
-        <div id="top-menu"><ul><li><a href="/edirom-projekt/digitale-musikedition/" title="Grundlegende und weiterführende Informationen zum Feld &quot;Digitale Musikedition&quot;.">Digitale Musikedition</a></li><li><a href="/edirom-projekt/das-forschungsprojekt/" title="Informationen zu Projektvorhaben, Mitarbeitern und Publikationen">Das Forschungsprojekt</a></li><li class="act"><a href="/edirom-projekt/software/" title="Beschreibung, Dokumentation und Bereitstellung unseres Software-Angebots">Software</a></li><li><a href="/edirom-projekt/kooperationen/" title="Informationen zu Kooperationspartnern unseres Forschungsprojekts
-&quot;Digitale Musikedition&quot;, und deren Anwendung unserer Software.">Kooperationen</a></li></ul></div>
-        <div id="lang-menu"><a href="/edirom-projekt/software/versionsgeschichte/" onfocus="blurLink(this);"><img src="/edirom-projekt/typo3temp/menu/b7227e09ae.png" width="1" height="1" border="0" alt="Versionsgeschichte" /></a><a href="en/software/version-history/" onfocus="blurLink(this);"><img src="/edirom-projekt/typo3temp/menu/8355c527ec.png" width="20" height="12" border="0" alt="Version history" /></a></div>
-        
-		<!--  lib.searchbox [begin] -->
-			
-		<!--  lib.searchbox [end] -->
-			
-    </div>
-    <div id="outer-content-wrapper">
-            <div id="breadcrumb"><span>Sie sind hier:</span><ul><li><a href="/edirom-projekt/index.html" title="Edirom">Edirom</a>&gt; </li><li><a href="/edirom-projekt/software/" title="Beschreibung, Dokumentation und Bereitstellung unseres Software-Angebots">Software</a>&gt; </li><li><span class="spot5" title="Sie befinden sich auf der Seite:"> Versionsgeschichte </span></li></ul></div>
-    <div id="inner-content-wrapper">
-            <div id="top-content-box">
-                <div id="top-news">
-	<!--  CONTENT ELEMENT, uid:719/menu [begin] -->
-		<div id="c719" class="csc-frame csc-frame-frame1">
-		<!--  Header: [begin] -->
-			<div class="csc-header csc-header-n1"><h1 class="csc-firstHeader">Versionen</h1></div>
-		<!--  Header: [end] -->
-			
-		<!--  Menu/Sitemap element: [begin] -->
-			<ul class="csc-menu csc-menu-3"><li class="csc-section"><a href="/edirom-projekt/software/versionsgeschichte/#c713">Versionsgeschichte der Edirom Werkzeuge</a></li><li class="csc-section"><a href="/edirom-projekt/software/versionsgeschichte/#c750">Edirom Version 2010-01</a></li><li class="csc-section"><a href="/edirom-projekt/software/versionsgeschichte/#c712">Edirom Version 2008-08</a></li><li class="csc-section"><a href="/edirom-projekt/software/versionsgeschichte/#c714">Edirom Version Frühjahr 2007</a></li><li class="csc-section"><a href="/edirom-projekt/software/versionsgeschichte/#c716">Edirom Prototyp Sommer 2005</a></li><li class="csc-section"><a href="/edirom-projekt/software/versionsgeschichte/#c717">Edirom Prototyp Sommer 2004</a></li></ul>
-		<!--  Menu/Sitemap element: [end] -->
-			</div>
-	<!--  CONTENT ELEMENT, uid:719/menu [end] -->
-		</div>
-                <div id="top-content">
-	<!--  CONTENT ELEMENT, uid:713/text [begin] -->
-		<a id="c713"></a>
-		<!--  Header: [begin] -->
-			<div class="csc-header csc-header-n1"><h1 class="csc-firstHeader">Versionsgeschichte der Edirom Werkzeuge</h1></div>
-		<!--  Header: [end] -->
-			
-		<!--  Text: [begin] -->
-			<p class="bodytext">Im Rahmen der Kooperationen des Projekts und deren Anforderungen an die Edirom Anzeige ist diese in den letzten Jahren immer weiter entwickelt worden. Von den ersten Anfängen bis zur heute aktuellen Version wurden viele Funktionen und Möglichkeiten implementiert. </p>
-<p class="bodytext">Auch die anderen Werkzeuge des Edirom Projekts, die sich in der Regel mit der Erstellung digitaler Musikeditionen und somit dem Inhalt einer Edirom Anzeige beschäftigen, sind in ihrem Umfang im Laufe der Zeit erweitert worden oder neu hinzugekommen.</p>
-<p class="bodytext">Auf dieser Seite finden Sie einen Überblick über die veröffentlichten Versionen und deren Beschreibungen und Spezifika.</p>
-		<!--  Text: [end] -->
-			
-	<!--  CONTENT ELEMENT, uid:713/text [end] -->
-		
-	<!--  CONTENT ELEMENT, uid:750/cag_magstyleimg_pi1 [begin] -->
-		<a id="c750"></a>
-		<!--  Magazine Style Images: [begin] -->
-			
-		<!--  Header: [begin] -->
-			<div class="csc-header csc-header-n2"><h2>Edirom Version 2010-01</h2></div>
-		<!--  Header: [end] -->
-			<div class="csc-textpic csc-textpic-center csc-textpic-above"><div class="msi-blockwrap csc-textpic-imagewrap" style="width: 600px; border: 1px solid #eeeeee; background: #ffffff;"><div style="float:right;"><a href="/edirom-projekt/typo3temp/pics/52042ed13a.png" rel="lightbox[sb750]"><img src="/edirom-projekt/typo3temp/pics/1bc0aa3c39.png" width="395" height="263" border="0" style="margin: 2px; border: 1px solid #eeeeee; padding: 0px;" alt="" /></a></div><div style="float:left;"><a href="/edirom-projekt/typo3temp/pics/98622654d9.png" rel="lightbox[sb750]"><img src="/edirom-projekt/typo3temp/pics/9a5b5f4ba9.png" width="192" height="127" border="0" style="margin: 2px; border: 1px solid #eeeeee; padding: 0px;" alt="" /></a></div><div style="float:left;"><a href="/edirom-projekt/typo3temp/pics/11f4aceff5.png" rel="lightbox[sb750]"><img src="/edirom-projekt/typo3temp/pics/4f5f272001.png" width="192" height="127" border="0" style="margin: 2px; border: 1px solid #eeeeee; padding: 0px;" alt="" /></a></div><div style="clear: both"></div></div><div class="csc-textpic-text">
-		<!--  Text: [begin] -->
-			<p class="bodytext">Die Edirom Anzeige Version 2010-01 entstand in Zusammenarbeit mit der <a href="kooperationen/reger-werkausgabe/" title="Weiteres zur Kooperation mit der Reger-Werkausgabe." class="internal-link">Reger-Werkausgabe</a> für die Veröffentlichung des Bandes &quot;Choralphantasien&quot; (Band I/1). Die Edirom basiert auf der Version 2008-08 (und mehreren Zwischenversionen) und bietet somit alle Funktionen, die auch in den vorherigen Versionen zur Verfügung standen; darüber hinaus sind aber wesentliche Verbesserungen und Erweiterungen hinzugekommen.</p>
-<p class="bodytext">Größte Modifikation in dieser Version ist die Verknüpfung mehrerer Werke in einer Edirom-Instanz. Bislang war es lediglich möglich, mehrere Notentexte miteinander in Beziehung zu setzen, diese mussten allerdings die gleichen Satzstrukturen und eine aufeinander bezogene Taktzählung aufweisen. Mit der Einführung einer Werkebene in der Programmoberfläche ist die Software nun in der Lage, gleichzeitig Quellen aus verschiedenen Werken anzuzeigen. Verknüpfungen zwischen diesen Quellen sind genauso möglich, wie Beziehungen zu übergeordneten Texten.</p>
-		<!--  Text: [end] -->
-			</div></div><div class="csc-textpic-clear"><!-- --></div>
-		<!--  Magazine Style Images: [end] -->
-			
-	<!--  CONTENT ELEMENT, uid:750/cag_magstyleimg_pi1 [end] -->
-		
-	<!--  CONTENT ELEMENT, uid:712/text [begin] -->
-		<a id="c712"></a>
-		<!--  Header: [begin] -->
-			<div class="csc-header csc-header-n3"><h2>Edirom Version 2008-08</h2></div>
-		<!--  Header: [end] -->
-			
-		<!--  Text: [begin] -->
-			<h3>Video-Tutorial zu Dvořáks <i>Humoreske</i>  op.101,7</h3>
-<p class="bodytext">Zur Dokumentation dieser Arbeitsversion der Edirom ist ein <a href="/edirom-projekt/flash-filme/edirom-nde-video-tutorial/" target="FEopenLink" onclick="vHWin=window.open('http\x3A\x2F\x2Fwww.edirom.de\x2Fflash\x2Dfilme\x2Fedirom\x2Dnde\x2Dvideo\x2Dtutorial\x2F','FEopenLink','width=840,height=625');vHWin.focus();return false;" title="Edirom NDE Video Tutorial" class="internal-link">Video-Tutorial</a> (5,9 MB) erstellt  worden, in welchem die wesentlichen Neuerungen der Software sichtbar  werden. Das Tutorial basiert auf der digitalen Edition von Dvořáks <i>Humoreske</i>  op.101,7, die im Sommer 2007 als Probeedition mit der <a href="http://www.antonindvorak.org/" title="Zur Website der New Dvořák Edition" target="_blank" class="external-link-new-window"><i>New  Dvořák Edition</i></a> Prag abgeschlossen wurde.</p>
-<h3>Demoversion zu Webers  Klarinettenquintett op. 34</h3>
-<p class="bodytext">Bei der Demo-Version, die wir Ihnen hier zum Download anbieten,  handelt es sich um eine verschlankte <i>Edirom</i>-Software mit Webers  Klarinettenquintett op. 34. Diese Edirom stellt eine wesentliche  Weiterentwicklung seit der ersten Veröffentlichung 2004 dar und demonstriert bei – nahezu –  unveränderten Inhalten eindrucksvoll die technischen Neuerungen.</p>
-<p class="bodytext">Die Einschränkung der Demo-Version auf den Beginn des <i>Adagio</i>  war nötig, um die Downloadgröße gering zu halten. Sollten Sie Interesse  an einer vollständigen DVD-Version haben, so kontaktieren Sie bitte <a href="javascript:linkTo_UnCryptMailto('nbjmup+wfjuAxfcfs.hftbnubvthbcf/ef');" title="Email an  Joachim Veit schreiben" class="mail">Joachim  Veit</a>.</p><ul><li><a href="/edirom-projekt/fileadmin/downloads/op34/Edirom_Weber_Klarinettenquintett_Win_jre.zip" title="Edirom Win inkl. JRE" class="download"><i>Edirom</i>  für Windows inkl. Java Runtime Environment</a> (JRE), 168MB</li><li><a href="/edirom-projekt/fileadmin/downloads/op34/Edirom_Weber_Klarinettenquintett_Win.zip" title="Edirom Win" class="download"><i>Edirom</i>  für Windows</a> ohne JRE, 143MB</li><li><a href="/edirom-projekt/fileadmin/downloads/op34/Edirom_Weber_Klarinettenquintett.dmg" title="Edirom Mac" class="download"><i>Edirom</i>  für Mac</a>, 147MB</li></ul><p class="bodytext">Sollten Sie unsicher sein, welche Version für Sie passend ist,  sollten Sie zunächst die Windows Version inkl. JRE probieren. Für die  Version ohne JRE benötigen Sie ein installiertes <a href="http://java.com/de/download/index.jsp" title="Download von Java" target="_blank" class="external-link">Java</a>  (mindestens Version 1.5) auf Ihrem Rechner.</p>
-		<!--  Text: [end] -->
-			<p class="csc-linkToTop"><a href="#">Nach oben</a></p>
-	<!--  CONTENT ELEMENT, uid:712/text [end] -->
-		
-	<!--  CONTENT ELEMENT, uid:714/cag_magstyleimg_pi1 [begin] -->
-		<a id="c714"></a>
-		<!--  Magazine Style Images: [begin] -->
-			
-		<!--  Header: [begin] -->
-			<div class="csc-header csc-header-n4"><h2>Edirom Version Frühjahr 2007</h2></div>
-		<!--  Header: [end] -->
-			<div class="csc-textpic csc-textpic-center csc-textpic-above"><div class="msi-blockwrap csc-textpic-imagewrap" style="width: 600px; border: 1px solid #eeeeee; background: #ffffff;"><div style="float:right;"><a href="/edirom-projekt/typo3temp/pics/d110f1c76e.png" rel="lightbox[sb714]"><img src="/edirom-projekt/typo3temp/pics/fcab4f4b29.png" width="397" height="321" border="0" style="margin: 2px; border: 1px solid #eeeeee; padding: 0px;" alt="Auszug aus Dvořáks Humoreske op.101,7" title="Auszug aus Dvořáks Humoreske op.101,7" /></a></div><div style="float:left;"><a href="/edirom-projekt/typo3temp/pics/863903256f.png" rel="lightbox[sb714]"><img src="/edirom-projekt/typo3temp/pics/f008f4227b.png" width="190" height="161" border="0" style="margin: 2px; border: 1px solid #eeeeee; padding: 0px;" alt="Startbildschirm der Edirom mit Dvořáks Humoreske op.101,7" title="Startbildschirm der Edirom Dvořáks Humoreske op.101,7" /></a></div><div style="float:left;"><a href="/edirom-projekt/typo3temp/pics/f1af5c2ccc.png" rel="lightbox[sb714]"><img src="/edirom-projekt/typo3temp/pics/9f05bc485f.png" width="190" height="153" border="0" style="margin: 2px; border: 1px solid #eeeeee; padding: 0px;" alt="Taktnavigation" title="Taktnavigation" /></a></div><div style="clear: both"></div></div><div class="csc-textpic-text">
-		<!--  Text: [begin] -->
-			<p class="bodytext">&nbsp;</p>
-<p class="bodytext">Bei der hier beschriebenen Version der <i>Edirom</i> (Dvořáks  Humoreske op. 101, 7) handelt es sich um eine reine Anzeigeversion, d.h.  der Benutzer hat keinerlei Möglichkeiten, Änderungen im Programm oder  an den Inhalten vorzunehmen.</p>
-<p class="bodytext">Im folgenden sind einige Merkmale der Edirom beschrieben; für eine  vollständige Dokumentation dieser Version lesen Sie bitte das <a href="/edirom-projekt/fileadmin/downloads/Edirom_NDE_Handbuch.pdf" title="Edirom NDE Handbuch" class="download">Handbuch</a> (pdf, 1.9M).</p>
-<h3>Navigator</h3>
-<p class="bodytext">Der <i>Navigator</i> ist die wesentliche Schaltzentrale der Edirom,  über die sich sämtliche Inhalte der CD erschließen lassen. Er ist  aufgeteilt in vier farblich codierte Bereiche, die jeweils über einen  Button in der obersten Zeile des Navigators angewählt werden können. Der  schwarze Bereich, <i>Home</i>, enthält sämtliche programmspezifischen  Einträge. Im zweiten Bereich, dem grün markierten <i>Edition</i>, finden  sich alle Inhalte der Edition. Im orangefarbenen <i>Tools</i> lassen  sich alle Werkzeuge der Software aufrufen. Der letzte, blau codierte  Bereich <i>Search</i> ist in der vorliegenden Version noch ohne  Funktionalität. Hier sollen später Suchfunktionen für Text und Musik  angeboten werden.</p>
-<h3>Textfenster</h3>
-<p class="bodytext">Textfenster haben wie von <i>Windows</i> gewohnt eine obere Leiste  mit dem Titel des Fensters und rechts in dieser Titelleiste ein X zum  Schließen des Fensters. <br />Alle Fenster lassen sich per Drag&amp;Drop  der Titelleiste auf dem Monitor verschieben und über den gestreiften  Bereich rechts unten (<i>Anfasser</i>) in der Größe verändern. Das  aktive Fenster wird dabei mit einem dünnen bläulichen Rahmen markiert,  während die anderen Fenster einen grauen Rahmen haben.<br />Der  eigentliche Text wird bei sehr breiten Fenstern in der Breite  beschränkt, um den Lesefluss nicht durch eine übermäßige Zeilenlänge  einzuschränken. Sofern die Textlänge die Fensterhöhe übersteigt, kann  man in diesem auch per Mausrad scrollen (momentan allerdings nur direkt  über dem Text, nicht über etwaigen weißen Rändern) – oder über den  rechts sichtbaren Scrollbalken.</p>
-<h3>Quellenfenster</h3>
-<p class="bodytext">Bei Fenstern mit musikalischen Quellen hat der Benutzer zunächst die  gleichen grundsätzlichen Funktionen zum Verschieben und Schließen des  Fensters. In der Titelleiste des Fensters werden der Name der Quelle sowie  die aktuelle Seite aufgeführt. Handelt es sich bei der Quelle um die  Hauptquelle der Edition (hier P), so wird die Titelleiste rot  hinterlegt, während alle anderen Fenster eine schwarze Titelleiste  enthalten. <br />Am unteren Rand der Quellfenster findet sich eine  halbtransparente Statusleiste, welche in der Mitte die aktuelle  Vergrößerung des Ausschnitts darstellt (<i>Zoomregler</i>). Diese lässt  sich sowohl durch Verschieben des Stecknadelkopfes als auch direkte  Eingabe eines Prozentwertes verändern. Rechts neben dieser Anzeige wird  nochmals die aktuelle Seite angezeigt, die über die beiden Pfeile rechts  und links umgeblättert werden kann.<br />Innerhalb des Fensters kann der  Benutzer via Mausrad den Zoomlevel direkt verändern und den Ausschnitt  durch Ziehen mit der Maus verschieben. Zusätzlich kann der Benutzer über  einen Rechtsklick ein Kontextmenü öffnen, in dem sich ausschließlich  für das aktuelle Quellenfenster Anmerkungen und Taktzahlen einblenden  lassen.</p>
-<h3>Taktnavigation</h3>
-<p class="bodytext">Die <i>Taktnavigation</i> stellt ein mächtiges Hilfsmittel zum  Quellenstudium und -vergleich dar. Es ermöglicht Ihnen, in jeder Quelle  bestimmte Takte direkt anzuwählen oder gar die ganze Quelle taktweise  durchzusehen.<br />Im wesentlichen funktioniert dies mithilfe von drei  Reglern (wovon der dritte in der einsätzigen Humoreske ohne Funktion  bleibt), über welche die gewünschten Takte eingegeben werden können.  Durch einen einfachen Mausklick auf „Anzeigen“ werden die gewählten  Takte in allen geöffneten Quellenfenstern angesprungen. (Sie müssen also  zunächst die gewünschte(n) Quelle(n) geöffnet haben.) Die beiden Pfeile  links und rechts des Anzeigen-Knopfes ermöglichen es, den jeweils  nächsten (bzw. vorigen) Takt mit nur einem Klick anzeigen zu lassen. <br />Sofern  durch die <i>Taktnavigation</i> ein Intervall &gt; 1 angewählt wird,  kann es vorkommen, dass innerhalb eines Fensters mehrere Akkoladen (oder  Seiten) nebeneinander gestellt werden müssen. Dies wird mit einem  schwarzen Trennstrich verdeutlicht, wobei die Trennung durch die oberen  Pfeile – in die jeweilige Richtung – aufgehoben werden kann.</p>
-		<!--  Text: [end] -->
-			</div></div><div class="csc-textpic-clear"><!-- --></div>
-		<!--  Magazine Style Images: [end] -->
-			<p class="csc-linkToTop"><a href="#">Nach oben</a></p>
-	<!--  CONTENT ELEMENT, uid:714/cag_magstyleimg_pi1 [end] -->
-		
-	<!--  CONTENT ELEMENT, uid:716/cag_magstyleimg_pi1 [begin] -->
-		<a id="c716"></a>
-		<!--  Magazine Style Images: [begin] -->
-			
-		<!--  Header: [begin] -->
-			<div class="csc-header csc-header-n5"><h2>Edirom Prototyp Sommer 2005</h2></div>
-		<!--  Header: [end] -->
-			<div class="csc-textpic csc-textpic-center csc-textpic-above"><div class="msi-blockwrap csc-textpic-imagewrap" style="width: 600px; border: 1px solid #eeeeee; background: #ffffff;"><div style="float:left;"><a href="/edirom-projekt/typo3temp/pics/49c4d9621e.jpg" rel="lightbox[sb716]"><img src="/edirom-projekt/typo3temp/pics/26989d30e4.jpg" width="294" height="216" border="0" style="margin: 2px; border: 1px solid #eeeeee; padding: 0px;" alt="" /></a></div><div style="float:left;"><a href="/edirom-projekt/typo3temp/pics/ab4b9a9736.jpg" rel="lightbox[sb716]"><img src="/edirom-projekt/typo3temp/pics/93edd362fd.jpg" width="293" height="216" border="0" style="margin: 2px; border: 1px solid #eeeeee; padding: 0px;" alt="" /></a></div><div style="clear: both"></div></div><div class="csc-textpic-text">
-		<!--  Text: [begin] -->
-			<p class="bodytext">&nbsp;</p>
-<p class="bodytext">Das eigentliche Anliegen der Edirom, das Verständnis für die Entscheidungen des Herausgebers zu erleichtern, wird bereits in den Screenshots dieser Edirom-Version deutlich: Durch flexible Anordnung und Aufbereitung von visuellem Inhalt können Sachverhalte rascher erfasst und durch die Kontextualisierung kritischer beurteilt werden.<br />In der oberen Leiste der Fenster ist jeweils zu erkennen, welches Werk in der Edirom geladen ist. Neben zusätzlichen Informationen zu der aktuell angezeigten Anmerkung befindet sich die Suche als zentrale Funktion auf der rechten Seite dieser Leiste. Die Suche soll intuitiv zu bedienen sein und mehrere Aspekte der Anmerkungen (z.B. Suche nach Takten, Kategorien, Instrumenten usw.) berücksichtigen.<br />Die linke Seite des Fensters dient mit einer Übersicht aller verfügbaren Quellen des Werkes als Navigation für die einzelnen geöffneten Fenster. Auf der rechten Seite wird neben Detailinformationen und den Erläuterungen des Editors zu der aktuellen Anmerkung die Navigation durch den Kritischen Bericht zur Verfügung gestellt.<br />In der Mitte werden die relevanten Quellen mittels eines Algorithmus möglichst flächendeckend angeordnet. Zu diesen vom Herausgeber vorgeschlagenen Faksimileausschnitten können beliebige andere Ausschnitte geladen oder nicht benötigte ausgeblendet werden.</p>
-<p class="bodytext"> Durch die vollständig im Programm hinterlegten Faksimiles erhält der Benutzer die Möglichkeit, sich auch den Kontext eines vom Herausgeber gewählten Ausschnittes ansehen zu können.<br />Als Hilfsmittel für die genaue Betrachtung der Faksimiles stehen dem Benutzer eine Vergrößerungs- und Verkleinerungsfunktion und ein Verschiebewerkzeug zur Verfügung. Außerdem können die Taktzahlen in das Faksimile zur leichteren Orientierung eingeblendet werden. Einen wesentlichen Vorteil bietet auch die Möglichkeit, farbige Markierungen, die der Editor im Faksimile eingetragen hat, einzublenden, um z.B. autographe Anmerkungen, Korrekturen oder fremde Zusätze in den Quellen besser erkennen zu können.<br />Durch die flexibleren Betrachtungsmöglichkeiten der Quellen wird das Verständnis der Entscheidungen des Editors besser nachvollziehbar, zugleich kann der Benutzer auf der Grundlage eigener Interpretationen der Quellen zu abweichenden Entscheidungen kommen. Diese neu gewonnene Freiheit im Umgang mit der Edition soll zu einem lebendigeren Austausch zwischen Herausgeber und Leser (Betrachter) führen.</p>
-		<!--  Text: [end] -->
-			</div></div><div class="csc-textpic-clear"><!-- --></div>
-		<!--  Magazine Style Images: [end] -->
-			<p class="csc-linkToTop"><a href="#">Nach oben</a></p>
-	<!--  CONTENT ELEMENT, uid:716/cag_magstyleimg_pi1 [end] -->
-		
-	<!--  CONTENT ELEMENT, uid:717/cag_magstyleimg_pi1 [begin] -->
-		<a id="c717"></a>
-		<!--  Magazine Style Images: [begin] -->
-			
-		<!--  Header: [begin] -->
-			<div class="csc-header csc-header-n6"><h2>Edirom Prototyp Sommer 2004</h2></div>
-		<!--  Header: [end] -->
-			<div class="csc-textpic csc-textpic-center csc-textpic-above"><div class="msi-blockwrap csc-textpic-imagewrap" style="width: 600px; border: 1px solid #eeeeee; background: #ffffff;"><div style="float:left;"><a href="uploads/pics/autograph_03.jpg" rel="lightbox[sb717]"><img src="/edirom-projekt/typo3temp/pics/e05898aca0.jpg" width="193" height="145" border="0" style="margin: 2px; border: 1px solid #eeeeee; padding: 0px;" alt="Erste Seite aus dem Autograph von Webers Klarinettenquintetts" title="Erste Seite aus dem Autograph von Webers Klarinettenquintetts" /></a></div><div style="float:left;"><a href="uploads/pics/screenshot01_03.jpg" rel="lightbox[sb717]"><img src="/edirom-projekt/typo3temp/pics/29ef9cb446.jpg" width="193" height="145" border="0" style="margin: 2px; border: 1px solid #eeeeee; padding: 0px;" alt="Quellenausschnitte und Notentext - Screenshot 1" title="Quellenausschnitte und Notentext - Screenshot 1" /></a></div><div style="float:left;"><a href="uploads/pics/erstdruck_03.jpg" rel="lightbox[sb717]"><img src="/edirom-projekt/typo3temp/pics/58c84c0939.jpg" width="193" height="145" border="0" style="margin: 2px; border: 1px solid #eeeeee; padding: 0px;" alt="Erstdruck des Klarinettenquintetts, 1. Seite der Klarinettenstimme" title="Erstdruck des Klarinettenquintetts, 1. Seite der Klarinettenstimme" /></a></div><div style="float:left;"><a href="uploads/pics/screenshot02_03.jpg" rel="lightbox[sb717]"><img src="/edirom-projekt/typo3temp/pics/58a860baaa.jpg" width="292" height="220" border="0" style="margin: 2px; border: 1px solid #eeeeee; padding: 0px;" alt="Quellenausschnitte und Notentext - Screenshot 2" title="Quellenausschnitte und Notentext - Screenshot 2" /></a></div><div style="float:left;"><a href="uploads/pics/screenshot03_03.jpg" rel="lightbox[sb717]"><img src="/edirom-projekt/typo3temp/pics/f6913b225e.jpg" width="292" height="220" border="0" style="margin: 2px; border: 1px solid #eeeeee; padding: 0px;" alt="Screenshot der Zoomfunktion" title="Screenshot der Zoomfunktion" /></a></div><div style="clear: both"></div><div class="csc-textpic-caption-c"><p class="msi-caption csc-textpic-caption">[Die Screenshots sind der digitalen Edition des Klarinettenquintetts op. 34 entnommen, die als CD dem Gesamtausgabenband Carl Maria von Weber, Sämtliche Werke, Serie VI, Bd. 3 (erschienen Mainz 2005) beiliegt.]</p></div></div><div class="csc-textpic-text">
-		<!--  Text: [begin] -->
-			<p class="bodytext">&nbsp;</p>
-<p class="bodytext">Alle jeweils relevanten Quellenausschnitte werden gleichzeitig neben  dem Text der Kritischen Anmerkung dargestellt. Der Notentext der  Neuedition erscheint stets in der unteren Bildschirmhälfte, die  Quellenfaksimiles können variabel angeordnet werden. Die Rahmen, in  denen die Quellenausschnitte stehen, sind von der Datenbank in Größe und  Position gesteuert. Je nach Anzahl der notwendigen Faksimiles wird  dabei aus einer Reihe vordefinierter Rahmen-Modelle ausgewählt, so dass  die Bildschirmdarstellung flexibel genug bleibt, um den  unterschiedlichen Gegebenheiten der Einzelanmerkungen Rechnung zu  tragen.</p>
-<p class="bodytext">Ausblendbare Markierungspfeile erlauben die schnellere Wahrnehmung  der besprochenen Details.</p>
-<p class="bodytext">Die einzelnen Fenster tragen eine Titelleiste, die jeweils pro  Anmerkung zugewiesen werden kann. Im oberen Bereich wird als  Navigationshilfe neben Satz-, Takt- und Anmerkungsnummern im linken  größeren Fenster auch die jeweilige Rubrizierung der Anmerkung (betr.  Bögen, Artikulation, Dynamik, Notation, Korrekturen des Komponisten oder  des Herausgebers, Korrekturen im Zweitdruck usw.) ausgeworfen, die mit  Hilfe der integrierten Suchfunktion gezielt angesteuert werden kann.  Damit lassen sich gleichzeitig auch Einzelsätze oder Einzeltakte direkt  anwählen. <br />Integriert wurde außerdem ein Schalter zur direkten  Ansteuerung von Parallelstellen im Satz (PS).</p>
-<p class="bodytext">Zum Funktionsumfang der Software gehört auch eine Zoomfunktion für  die Faksimiles, die in 10er-Einheiten frei eingestellt werden kann.  Damit lassen sich insbesondere aus Platzgründen nur in Form kleinerer  Gesamtansichten integrierbare Faksimiles leicht vergrößern. Diese  Faksimiles sind auf dem Bildschirm frei verschiebbar (oder ggf. auch in  einen zweiten angeschlossenen Bildschirm transformierbar).</p>
-<p class="bodytext">Soweit möglich, sollen alle relevanten Quellen auch in Form  vollständiger Faksimiles auf der Edirom enthalten sein. Dies ist bei der  CD zu Webers Klarinettenquintett der Fall. Damit erhält der Nutzer  Arbeitsmöglichkeiten, die im Medium Buch aus Kostengründen völlig  undenkbar sind.<br />Die integrierten Quellenfaksimiles können nicht nur  in einer Gesamtansicht betrachtet werden, sondern wie im Editionsbericht  mit der Zoom-Funktion der Software beliebig vergrößert werden. Die  Qualität der Wiedergabe wird dabei in künftigen Bänden auch davon  abhängen, welche Auflösung der jeweilige Quellenbesitzer für die  CD-Wiedergabe zulässt. Bei einer langfristig zu verwirklichenden  Internet-Lösung könnte auch direkt zur bewahrenden Bibliothek verlinkt  werden.</p>
-<p class="bodytext">Für eine detaillierte Beschreibung der Funktionsweisen werfen Sie  bitte auch einen Blick in das <a href="/edirom-projekt/fileadmin/downloads/hilfe_edirom2004_1.pdf" title="Handbuch zur Edirom mit Webers  Klarinettenquintett" class="download">Handbuch</a>  zu dieser <i>Edirom</i>-Version (pdf, 280kB). </p>
-		<!--  Text: [end] -->
-			</div></div><div class="csc-textpic-clear"><!-- --></div>
-		<!--  Magazine Style Images: [end] -->
-			<p class="csc-linkToTop"><a href="#">Nach oben</a></p>
-	<!--  CONTENT ELEMENT, uid:717/cag_magstyleimg_pi1 [end] -->
-		</div>
-           </div>
-            <div id="inner-top-content">
-                <div id="middle-content"></div>
-                <div id="left-content"></div>
+        <link href="http://www.edirom.de/edirom-projekt/fileadmin/templates/pix/favicon.ico" rel="shortcut icon" type="image/x-icon; charset=binary" />
+        <link href="http://www.edirom.de/edirom-projekt/fileadmin/templates/pix/favicon.ico" rel="icon" type="image/x-icon; charset=binary" />
+        <title>Edirom: Versionsgeschichte</title>
+        <meta content="TYPO3 4.5 CMS" name="generator" />
+        <meta content="F3aihDWAucG8BpqywaMihzn8vr0HkZmfls8Yg7WE5u4" name="google-site-verification" />
+        <meta content="Edirom - Projekt digitale Musikedition" name="author" />
+        <meta content="Edirom - Projekt digitale Musikedition" name="copyright" />
+        <meta content="Edirom, digital, digitale, Musikedition, Musik, Edition, music, edition, music-edition" name="keywords" />
+        <meta content="Edirom - Projekt digitale Musikedition" name="description" />
+        <meta content="INDEX,FOLLOW" name="robots" />
+        <link href="/edirom-projekt/typo3temp/stylesheet_0e95a7fbbd.css?1347447097" media="all" rel="stylesheet" type="text/css" />
+        <link href="/edirom-projekt/typo3conf/ext/seminars/pi1/seminars_pi1.css?1341486559" media="all" rel="stylesheet" type="text/css" />
+        <link href="/edirom-projekt/typo3conf/ext/air_filemanager/pi1/gallery.css?1346392304" media="all" rel="stylesheet" type="text/css" />
+        <link href="/edirom-projekt/fileadmin/templates/main/css/print.css?1310645728" media="print" rel="stylesheet" title="print_stylesheet" type="text/css" />
+        <link href="/edirom-projekt/fileadmin/templates/main/css/4feldertafelNews.css?1343830877" media="screen" rel="stylesheet" type="text/css" />
+        <script src="/edirom-projekt/typo3conf/ext/seminars/pi1/tx_seminars_pi1.js?1341486559" type="text/javascript"></script>
+        <script src="/edirom-projekt/typo3temp/javascript_0b12553063.js?1227609738" type="text/javascript"></script>
+        <link href="/edirom-projekt/typo3conf/ext/pmkslimbox/res/styles/slimboxplus.css" media="screen" rel="stylesheet" type="text/css" />
+        <script src="/edirom-projekt/typo3conf/ext/air_filemanager/pi1/jquery-1.2.2.min.js" type="text/javascript"></script>
+        <script src="/edirom-projekt/typo3conf/ext/air_filemanager/pi1/air_filemanager.js" type="text/javascript"></script>
+        <script src="/edirom-projekt/typo3conf/ext/pmkslimbox/res/scripts/mootools-1.2.1.js" type="text/javascript"></script>
+        <script src="/edirom-projekt/typo3conf/ext/pmkslimbox/res/scripts/slimboxplus.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            /*<![CDATA[
+* /
+            <!--
+            Slimbox.scanPage = function () {
+                var links = $$("a").filter(function (el) {
+                    return el.rel && el.rel.test(/^lightbox/i);
+                });
+                $$(links).slimbox({
+                    resizeDuration: 400, resizeTransition: Fx.Transitions.Sine.easeInOut, opacity: 0.8, opacityDuration: 500, loop: 1, initialWidth: 250, initialHeight: 250, animateCaption: 1, showCounter: 1, defaultIframeWidth: 500, defaultIframeHeight: 300, iframeScrolling: 'auto', enablePrintButton: 0, enableSaveButton: 0, counterText: 'Seite  {x} von {y}', psScriptPath: 'http://www.edirom.de/typo3conf/ext/pmkslimbox/savefile.php'
+                },
+                null, function (el) {
+                    return (this == el) || ((this.rel.length > 8) && (this.rel == el.rel));
+                });
+            };
+            window.addEvent("domready", Slimbox.scanPage);
+            // -->
+            /*//]]>
+* /</script>
+        <script src="/edirom-projekt/typo3conf/ext/pmkslimbox/res/scripts/slimboxMagnify.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            /*<![CDATA[
+* /
+            <!--
+            window.addEvent('domready', slimboxMagnify.init.bind(slimboxMagnify, {
+                magnifyDuration: 400, magnifyTransition: Fx.Transitions.Sine.easeInOut, magnifyImgMarginB: 8, magnifyImgMarginR: 8, magnifyImg: 'typo3conf/ext/pmkslimbox/res/images/magnify.png', magnifyImgWidth: 24, magnifyImgHeight: 24, magnifyTitle: 'Klicken Sie auf das Bild um es zu vergrößern'
+            }));
+            // -->
+            /*//]]>
+* /</script>
+    </head>
+    <body>
+        <div id="outer-wrapper">
+            <div id="header">
+                <div id="header-img">
+                    <a href="/edirom-projekt/index.html">
+                        <img alt="Edirom - Home" border="0" height="88" src="/edirom-projekt/fileadmin/templates/main/img/Edirom-Schriftzug.gif" width="200" />
+                    </a>
+                </div>
+                <div id="ext-logos">
+                    <span>
+                        <a href="http://www.hfm-detmold.de/" target="_blank">
+                            <img alt="Hochschule für Musik Detmold" border="0" height="30" src="/edirom-projekt/typo3temp/pics/717b03c7b7.png" width="115" />
+                        </a>
+                    </span>
+                    <span>
+                        <a href="http://www.uni-paderborn.de" target="_blank">
+                            <img alt="Universität Paderborn" border="0" height="30" src="/edirom-projekt/typo3temp/pics/b67729faeb.png" width="103" />
+                        </a>
+                    </span>
+                    <span>
+                        <a href="http://www.dfg.de" target="_blank">
+                            <img alt="Deutsche Forschungsgemeinschaft" border="0" height="30" src="/edirom-projekt/typo3temp/pics/c25ecee0e2.png" width="81" />
+                        </a>
+                    </span>
+                </div>
             </div>
-            <div id="inner-bottom-content">
-                <div id="right-content"></div>
-                <div id="border-content"></div>
+            <div id="top">
+                <div id="top-menu">
+                    <ul>
+                        <li>
+                            <a href="/edirom-projekt/digitale-musikedition/" title="Grundlegende und weiterführende Informationen zum Feld &quot;Digitale Musikedition&quot;.">Digitale Musikedition</a>
+                        </li>
+                        <li>
+                            <a href="/edirom-projekt/das-forschungsprojekt/" title="Informationen zu Projektvorhaben, Mitarbeitern und Publikationen">Das Forschungsprojekt</a>
+                        </li>
+                        <li class="act">
+                            <a href="/edirom-projekt/software/" title="Beschreibung, Dokumentation und Bereitstellung unseres Software-Angebots">Software</a>
+                        </li>
+                        <li>
+                            <a href="/edirom-projekt/kooperationen/" title="Informationen zu Kooperationspartnern unseres Forschungsprojekts &quot;Digitale Musikedition&quot;, und deren Anwendung unserer Software.">Kooperationen</a>
+                        </li>
+                    </ul>
+                </div>
+                <div id="lang-menu">
+                    <a href="/edirom-projekt/software/versionsgeschichte/" onfocus="blurLink(this);">
+                        <img alt="Versionsgeschichte" border="0" height="1" src="/edirom-projekt/typo3temp/menu/b7227e09ae.png" width="1" />
+                    </a>
+                    <a href="en/software/version-history/" onfocus="blurLink(this);">
+                        <img alt="Version history" border="0" height="12" src="/edirom-projekt/typo3temp/menu/8355c527ec.png" width="20" />
+                    </a>
+                </div>
+                <!--  lib.searchbox [begin] -->
+                <!--  lib.searchbox [end] -->
             </div>
-        </div>
-        <div class="cleaner" />
-        <div id="footer">
-            <div id="footer-box">
-                <div id="footer-text">
-                    <div style="position:absolute;right:3px;bottom:3px;">Webseite archiviert am 1. Juni 2016</div>
-                    <div><ul id="meta-menu"><li><a href="/edirom-projekt/impressum/" title="Impressum">Impressum</a></li><li><a href="/edirom-projekt/sitemap/" title="Sitemap">Sitemap</a></li></ul></div>
+            <div id="outer-content-wrapper">
+                <div id="breadcrumb">
+                    <span>Sie sind hier:</span>
+                    <ul>
+                        <li><a href="/edirom-projekt/index.html" title="Edirom">Edirom</a>&gt; </li>
+                        <li><a href="/edirom-projekt/software/" title="Beschreibung, Dokumentation und Bereitstellung unseres Software-Angebots">Software</a>&gt; </li>
+                        <li>
+                            <span class="spot5" title="Sie befinden sich auf der Seite:"> Versionsgeschichte </span>
+                        </li>
+                    </ul>
+                </div>
+                <div id="inner-content-wrapper">
+                    <div id="top-content-box">
+                        <div id="top-news">
+                            <!--  CONTENT ELEMENT, uid:719/menu [begin] -->
+                            <div class="csc-frame csc-frame-frame1" id="c719">
+                                <!--  Header: [begin] -->
+                                <div class="csc-header csc-header-n1">
+                                    <h1 class="csc-firstHeader">Versionen</h1>
+                                </div>
+                                <!--  Header: [end] -->
+                                <!--  Menu/Sitemap element: [begin] -->
+                                <ul class="csc-menu csc-menu-3">
+                                    <li class="csc-section">
+                                        <a href="/edirom-projekt/software/versionsgeschichte/#c713">Versionsgeschichte der Edirom Werkzeuge</a>
+                                    </li>
+                                    <li class="csc-section">
+                                        <a href="/edirom-projekt/software/versionsgeschichte/#c750">Edirom Version 2010-01</a>
+                                    </li>
+                                    <li class="csc-section">
+                                        <a href="/edirom-projekt/software/versionsgeschichte/#c712">Edirom Version 2008-08</a>
+                                    </li>
+                                    <li class="csc-section">
+                                        <a href="/edirom-projekt/software/versionsgeschichte/#c714">Edirom Version Frühjahr 2007</a>
+                                    </li>
+                                    <li class="csc-section">
+                                        <a href="/edirom-projekt/software/versionsgeschichte/#c716">Edirom Prototyp Sommer 2005</a>
+                                    </li>
+                                    <li class="csc-section">
+                                        <a href="/edirom-projekt/software/versionsgeschichte/#c717">Edirom Prototyp Sommer 2004</a>
+                                    </li>
+                                </ul>
+                                <!--  Menu/Sitemap element: [end] -->
+                            </div>
+                            <!--  CONTENT ELEMENT, uid:719/menu [end] -->
+                        </div>
+                        <div id="top-content">
+                            <!--  CONTENT ELEMENT, uid:713/text [begin] -->
+                            <a id="c713"></a>
+                            <!--  Header: [begin] -->
+                            <div class="csc-header csc-header-n1">
+                                <h1 class="csc-firstHeader">Versionsgeschichte der Edirom Werkzeuge</h1>
+                            </div>
+                            <!--  Header: [end] -->
+                            <!--  Text: [begin] -->
+                            <p class="bodytext">Im Rahmen der Kooperationen des Projekts und deren Anforderungen an die Edirom Anzeige ist diese in den letzten Jahren immer weiter entwickelt worden. Von den ersten Anfängen bis zur heute aktuellen Version wurden viele Funktionen und Möglichkeiten implementiert. </p>
+                            <p class="bodytext">Auch die anderen Werkzeuge des Edirom Projekts, die sich in der Regel mit der Erstellung digitaler Musikeditionen und somit dem Inhalt einer Edirom Anzeige beschäftigen, sind in ihrem Umfang im Laufe der Zeit erweitert worden oder neu hinzugekommen. </p>
+                            <p class="bodytext">Auf dieser Seite finden Sie einen Überblick über die veröffentlichten Versionen und deren Beschreibungen und Spezifika.</p>
+                            <!--  Text: [end] -->
+                            <!--  CONTENT ELEMENT, uid:713/text [end] -->
+                            <!--  CONTENT ELEMENT, uid:750/cag_magstyleimg_pi1 [begin] -->
+                            <a id="c750"></a>
+                            <!--  Magazine Style Images: [begin] -->
+                            <!--  Header: [begin] -->
+                            <div class="csc-header csc-header-n2">
+                                <h2>Edirom Version 2010-01</h2>
+                            </div>
+                            <!--  Header: [end] -->
+                            <div class="csc-textpic csc-textpic-center csc-textpic-above">
+                                <div class="msi-blockwrap csc-textpic-imagewrap" style="width: 600px; border: 1px solid #eeeeee; background: #ffffff;">
+                                    <div style="float:right;">
+                                        <a href="/edirom-projekt/typo3temp/pics/52042ed13a.png" rel="lightbox[sb750]">
+                                            <img alt="" border="0" height="263" src="/edirom-projekt/typo3temp/pics/1bc0aa3c39.png" style="margin: 2px; border: 1px solid #eeeeee; padding: 0px;" width="395" />
+                                        </a>
+                                    </div>
+                                    <div style="float:left;">
+                                        <a href="/edirom-projekt/typo3temp/pics/98622654d9.png" rel="lightbox[sb750]">
+                                            <img alt="" border="0" height="127" src="/edirom-projekt/typo3temp/pics/9a5b5f4ba9.png" style="margin: 2px; border: 1px solid #eeeeee; padding: 0px;" width="192" />
+                                        </a>
+                                    </div>
+                                    <div style="float:left;">
+                                        <a href="/edirom-projekt/typo3temp/pics/11f4aceff5.png" rel="lightbox[sb750]">
+                                            <img alt="" border="0" height="127" src="/edirom-projekt/typo3temp/pics/4f5f272001.png" style="margin: 2px; border: 1px solid #eeeeee; padding: 0px;" width="192" />
+                                        </a>
+                                    </div>
+                                    <div style="clear: both"></div>
+                                </div>
+                                <div class="csc-textpic-text">
+                                    <!--  Text: [begin] -->
+                                    <p class="bodytext">Die Edirom Anzeige Version 2010-01 entstand in Zusammenarbeit mit der <a class="internal-link" href="kooperationen/reger-werkausgabe/" title="Weiteres zur Kooperation mit der Reger-Werkausgabe.">Reger-Werkausgabe</a> für die Veröffentlichung des Bandes &quot;Choralphantasien&quot; (Band I/1). Die Edirom basiert auf der Version 2008-08 (und mehreren Zwischenversionen) und bietet somit alle Funktionen, die auch in den vorherigen Versionen zur Verfügung standen; darüber hinaus sind aber wesentliche Verbesserungen und Erweiterungen hinzugekommen. </p>
+                                    <p class="bodytext">Größte Modifikation in dieser Version ist die Verknüpfung mehrerer Werke in einer Edirom-Instanz. Bislang war es lediglich möglich, mehrere Notentexte miteinander in Beziehung zu setzen, diese mussten allerdings die gleichen Satzstrukturen und eine aufeinander bezogene Taktzählung aufweisen. Mit der Einführung einer Werkebene in der Programmoberfläche ist die Software nun in der Lage, gleichzeitig Quellen aus verschiedenen Werken anzuzeigen. Verknüpfungen zwischen diesen Quellen sind genauso möglich, wie Beziehungen zu übergeordneten Texten.</p>
+                                    <!--  Text: [end] -->
+                                </div>
+                            </div>
+                            <div class="csc-textpic-clear"><!-- --></div>
+                            <!--  Magazine Style Images: [end] -->
+                            <!--  CONTENT ELEMENT, uid:750/cag_magstyleimg_pi1 [end] -->
+                            <!--  CONTENT ELEMENT, uid:712/text [begin] -->
+                            <a id="c712"></a>
+                            <!--  Header: [begin] -->
+                            <div class="csc-header csc-header-n3">
+                                <h2>Edirom Version 2008-08</h2>
+                            </div>
+                            <!--  Header: [end] -->
+                            <!--  Text: [begin] -->
+                            <h3>Video-Tutorial zu Dvořáks <i>Humoreske</i> op.101,7</h3>
+                            <p class="bodytext">Zur Dokumentation dieser Arbeitsversion der Edirom ist ein <a class="internal-link" href="/edirom-projekt/flash-filme/edirom-nde-video-tutorial/" onclick="vHWin=window.open('http\x3A\x2F\x2Fwww.edirom.de\x2Fflash\x2Dfilme\x2Fedirom\x2Dnde\x2Dvideo\x2Dtutorial\x2F','FEopenLink','width=840,height=625');vHWin.focus();return false;" target="FEopenLink" title="Edirom NDE Video Tutorial">Video-Tutorial</a> (5,9 MB) erstellt worden, in welchem die wesentlichen Neuerungen der Software sichtbar werden. Das Tutorial basiert auf der digitalen Edition von Dvořáks <i>Humoreske</i> op.101,7, die im Sommer 2007 als Probeedition mit der <a class="external-link-new-window" href="http://www.antonindvorak.org/" target="_blank" title="Zur Website der New Dvořák Edition"><i>New Dvořák Edition</i></a> Prag abgeschlossen wurde. </p>
+                            <h3>Demoversion zu Webers Klarinettenquintett op. 34</h3>
+                            <p class="bodytext">Bei der Demo-Version, die wir Ihnen hier zum Download anbieten, handelt es sich um eine verschlankte <i>Edirom</i>-Software mit Webers Klarinettenquintett op. 34. Diese Edirom stellt eine wesentliche Weiterentwicklung seit der ersten Veröffentlichung 2004 dar und demonstriert bei – nahezu – unveränderten Inhalten eindrucksvoll die technischen Neuerungen. </p>
+                            <p class="bodytext">Die Einschränkung der Demo-Version auf den Beginn des <i>Adagio</i> war nötig, um die Downloadgröße gering zu halten. Sollten Sie Interesse an einer vollständigen DVD-Version haben, so kontaktieren Sie bitte <a class="mail" href="javascript:linkTo_UnCryptMailto('nbjmup+wfjuAxfcfs.hftbnubvthbcf/ef');" title="Email an  Joachim Veit schreiben">Joachim Veit</a>.</p>
+                            <ul>
+                                <li><a class="download" href="/edirom-projekt/fileadmin/downloads/op34/Edirom_Weber_Klarinettenquintett_Win_jre.zip" title="Edirom Win inkl. JRE"><i>Edirom</i> für Windows inkl. Java Runtime Environment</a> (JRE), 168MB</li>
+                                <li><a class="download" href="/edirom-projekt/fileadmin/downloads/op34/Edirom_Weber_Klarinettenquintett_Win.zip" title="Edirom Win"><i>Edirom</i> für Windows</a> ohne JRE, 143MB</li>
+                                <li><a class="download" href="/edirom-projekt/fileadmin/downloads/op34/Edirom_Weber_Klarinettenquintett.dmg" title="Edirom Mac"><i>Edirom</i> für Mac</a>, 147MB</li>
+                            </ul>
+                            <p class="bodytext">Sollten Sie unsicher sein, welche Version für Sie passend ist, sollten Sie zunächst die Windows Version inkl. JRE probieren. Für die Version ohne JRE benötigen Sie ein installiertes <a class="external-link" href="http://java.com/de/download/index.jsp" target="_blank" title="Download von Java">Java</a> (mindestens Version 1.5) auf Ihrem Rechner.</p>
+                            <!--  Text: [end] -->
+                            <p class="csc-linkToTop">
+                                <a href="#">Nach oben</a>
+                            </p>
+                            <!--  CONTENT ELEMENT, uid:712/text [end] -->
+                            <!--  CONTENT ELEMENT, uid:714/cag_magstyleimg_pi1 [begin] -->
+                            <a id="c714"></a>
+                            <!--  Magazine Style Images: [begin] -->
+                            <!--  Header: [begin] -->
+                            <div class="csc-header csc-header-n4">
+                                <h2>Edirom Version Frühjahr 2007</h2>
+                            </div>
+                            <!--  Header: [end] -->
+                            <div class="csc-textpic csc-textpic-center csc-textpic-above">
+                                <div class="msi-blockwrap csc-textpic-imagewrap" style="width: 600px; border: 1px solid #eeeeee; background: #ffffff;">
+                                    <div style="float:right;">
+                                        <a href="/edirom-projekt/typo3temp/pics/d110f1c76e.png" rel="lightbox[sb714]">
+                                            <img alt="Auszug aus Dvořáks Humoreske op.101,7" border="0" height="321" src="/edirom-projekt/typo3temp/pics/fcab4f4b29.png" style="margin: 2px; border: 1px solid #eeeeee; padding: 0px;" title="Auszug aus Dvořáks Humoreske op.101,7" width="397" />
+                                        </a>
+                                    </div>
+                                    <div style="float:left;">
+                                        <a href="/edirom-projekt/typo3temp/pics/863903256f.png" rel="lightbox[sb714]">
+                                            <img alt="Startbildschirm der Edirom mit Dvořáks Humoreske op.101,7" border="0" height="161" src="/edirom-projekt/typo3temp/pics/f008f4227b.png" style="margin: 2px; border: 1px solid #eeeeee; padding: 0px;" title="Startbildschirm der Edirom Dvořáks Humoreske op.101,7" width="190" />
+                                        </a>
+                                    </div>
+                                    <div style="float:left;">
+                                        <a href="/edirom-projekt/typo3temp/pics/f1af5c2ccc.png" rel="lightbox[sb714]">
+                                            <img alt="Taktnavigation" border="0" height="153" src="/edirom-projekt/typo3temp/pics/9f05bc485f.png" style="margin: 2px; border: 1px solid #eeeeee; padding: 0px;" title="Taktnavigation" width="190" />
+                                        </a>
+                                    </div>
+                                    <div style="clear: both"></div>
+                                </div>
+                                <div class="csc-textpic-text">
+                                    <!--  Text: [begin] -->
+                                    <p class="bodytext">&nbsp;</p>
+                                    <p class="bodytext">Bei der hier beschriebenen Version der <i>Edirom</i> (Dvořáks Humoreske op. 101, 7) handelt es sich um eine reine Anzeigeversion, d.h. der Benutzer hat keinerlei Möglichkeiten, Änderungen im Programm oder an den Inhalten vorzunehmen. </p>
+                                    <p class="bodytext">Im folgenden sind einige Merkmale der Edirom beschrieben; für eine vollständige Dokumentation dieser Version lesen Sie bitte das <a class="download" href="/edirom-projekt/fileadmin/downloads/Edirom_NDE_Handbuch.pdf" title="Edirom NDE Handbuch">Handbuch</a> (pdf, 1.9M). </p>
+                                    <h3>Navigator</h3>
+                                    <p class="bodytext">Der <i>Navigator</i> ist die wesentliche Schaltzentrale der Edirom, über die sich sämtliche Inhalte der CD erschließen lassen. Er ist aufgeteilt in vier farblich codierte Bereiche, die jeweils über einen Button in der obersten Zeile des Navigators angewählt werden können. Der schwarze Bereich, <i>Home</i>, enthält sämtliche programmspezifischen Einträge. Im zweiten Bereich, dem grün markierten <i>Edition</i>, finden sich alle Inhalte der Edition. Im orangefarbenen <i>Tools</i> lassen sich alle Werkzeuge der Software aufrufen. Der letzte, blau codierte Bereich <i>Search</i> ist in der vorliegenden Version noch ohne Funktionalität. Hier sollen später Suchfunktionen für Text und Musik angeboten werden. </p>
+                                    <h3>Textfenster</h3>
+                                    <p class="bodytext">Textfenster haben wie von <i>Windows</i> gewohnt eine obere Leiste mit dem Titel des Fensters und rechts in dieser Titelleiste ein X zum Schließen des Fensters. <br />Alle Fenster lassen sich per Drag&amp;Drop der Titelleiste auf dem Monitor verschieben und über den gestreiften Bereich rechts unten (<i>Anfasser</i>) in der Größe verändern. Das aktive Fenster wird dabei mit einem dünnen bläulichen Rahmen markiert, während die anderen Fenster einen grauen Rahmen haben.<br />Der eigentliche Text wird bei sehr breiten Fenstern in der Breite beschränkt, um den Lesefluss nicht durch eine übermäßige Zeilenlänge einzuschränken. Sofern die Textlänge die Fensterhöhe übersteigt, kann man in diesem auch per Mausrad scrollen (momentan allerdings nur direkt über dem Text, nicht über etwaigen weißen Rändern) – oder über den rechts sichtbaren Scrollbalken. </p>
+                                    <h3>Quellenfenster</h3>
+                                    <p class="bodytext">Bei Fenstern mit musikalischen Quellen hat der Benutzer zunächst die gleichen grundsätzlichen Funktionen zum Verschieben und Schließen des Fensters. In der Titelleiste des Fensters werden der Name der Quelle sowie die aktuelle Seite aufgeführt. Handelt es sich bei der Quelle um die Hauptquelle der Edition (hier P), so wird die Titelleiste rot hinterlegt, während alle anderen Fenster eine schwarze Titelleiste enthalten. <br />Am unteren Rand der Quellfenster findet sich eine halbtransparente Statusleiste, welche in der Mitte die aktuelle Vergrößerung des Ausschnitts darstellt (<i>Zoomregler</i>). Diese lässt sich sowohl durch Verschieben des Stecknadelkopfes als auch direkte Eingabe eines Prozentwertes verändern. Rechts neben dieser Anzeige wird nochmals die aktuelle Seite angezeigt, die über die beiden Pfeile rechts und links umgeblättert werden kann.<br />Innerhalb des Fensters kann der Benutzer via Mausrad den Zoomlevel direkt verändern und den Ausschnitt durch Ziehen mit der Maus verschieben. Zusätzlich kann der Benutzer über einen Rechtsklick ein Kontextmenü öffnen, in dem sich ausschließlich für das aktuelle Quellenfenster Anmerkungen und Taktzahlen einblenden lassen. </p>
+                                    <h3>Taktnavigation</h3>
+                                    <p class="bodytext">Die <i>Taktnavigation</i> stellt ein mächtiges Hilfsmittel zum Quellenstudium und -vergleich dar. Es ermöglicht Ihnen, in jeder Quelle bestimmte Takte direkt anzuwählen oder gar die ganze Quelle taktweise durchzusehen.<br />Im wesentlichen funktioniert dies mithilfe von drei Reglern (wovon der dritte in der einsätzigen Humoreske ohne Funktion bleibt), über welche die gewünschten Takte eingegeben werden können. Durch einen einfachen Mausklick auf „Anzeigen“ werden die gewählten Takte in allen geöffneten Quellenfenstern angesprungen. (Sie müssen also zunächst die gewünschte(n) Quelle(n) geöffnet haben.) Die beiden Pfeile links und rechts des Anzeigen-Knopfes ermöglichen es, den jeweils nächsten (bzw. vorigen) Takt mit nur einem Klick anzeigen zu lassen. <br />Sofern durch die <i>Taktnavigation</i> ein Intervall &gt; 1 angewählt wird, kann es vorkommen, dass innerhalb eines Fensters mehrere Akkoladen (oder Seiten) nebeneinander gestellt werden müssen. Dies wird mit einem schwarzen Trennstrich verdeutlicht, wobei die Trennung durch die oberen Pfeile – in die jeweilige Richtung – aufgehoben werden kann.</p>
+                                    <!--  Text: [end] -->
+                                </div>
+                            </div>
+                            <div class="csc-textpic-clear"><!-- --></div>
+                            <!--  Magazine Style Images: [end] -->
+                            <p class="csc-linkToTop">
+                                <a href="#">Nach oben</a>
+                            </p>
+                            <!--  CONTENT ELEMENT, uid:714/cag_magstyleimg_pi1 [end] -->
+                            <!--  CONTENT ELEMENT, uid:716/cag_magstyleimg_pi1 [begin] -->
+                            <a id="c716"></a>
+                            <!--  Magazine Style Images: [begin] -->
+                            <!--  Header: [begin] -->
+                            <div class="csc-header csc-header-n5">
+                                <h2>Edirom Prototyp Sommer 2005</h2>
+                            </div>
+                            <!--  Header: [end] -->
+                            <div class="csc-textpic csc-textpic-center csc-textpic-above">
+                                <div class="msi-blockwrap csc-textpic-imagewrap" style="width: 600px; border: 1px solid #eeeeee; background: #ffffff;">
+                                    <div style="float:left;">
+                                        <a href="/edirom-projekt/typo3temp/pics/49c4d9621e.jpg" rel="lightbox[sb716]">
+                                            <img alt="" border="0" height="216" src="/edirom-projekt/typo3temp/pics/26989d30e4.jpg" style="margin: 2px; border: 1px solid #eeeeee; padding: 0px;" width="294" />
+                                        </a>
+                                    </div>
+                                    <div style="float:left;">
+                                        <a href="/edirom-projekt/typo3temp/pics/ab4b9a9736.jpg" rel="lightbox[sb716]">
+                                            <img alt="" border="0" height="216" src="/edirom-projekt/typo3temp/pics/93edd362fd.jpg" style="margin: 2px; border: 1px solid #eeeeee; padding: 0px;" width="293" />
+                                        </a>
+                                    </div>
+                                    <div style="clear: both"></div>
+                                </div>
+                                <div class="csc-textpic-text">
+                                    <!--  Text: [begin] -->
+                                    <p class="bodytext">&nbsp;</p>
+                                    <p class="bodytext">Das eigentliche Anliegen der Edirom, das Verständnis für die Entscheidungen des Herausgebers zu erleichtern, wird bereits in den Screenshots dieser Edirom-Version deutlich: Durch flexible Anordnung und Aufbereitung von visuellem Inhalt können Sachverhalte rascher erfasst und durch die Kontextualisierung kritischer beurteilt werden.<br />In der oberen Leiste der Fenster ist jeweils zu erkennen, welches Werk in der Edirom geladen ist. Neben zusätzlichen Informationen zu der aktuell angezeigten Anmerkung befindet sich die Suche als zentrale Funktion auf der rechten Seite dieser Leiste. Die Suche soll intuitiv zu bedienen sein und mehrere Aspekte der Anmerkungen (z.B. Suche nach Takten, Kategorien, Instrumenten usw.) berücksichtigen.<br />Die linke Seite des Fensters dient mit einer Übersicht aller verfügbaren Quellen des Werkes als Navigation für die einzelnen geöffneten Fenster. Auf der rechten Seite wird neben Detailinformationen und den Erläuterungen des Editors zu der aktuellen Anmerkung die Navigation durch den Kritischen Bericht zur Verfügung gestellt.<br />In der Mitte werden die relevanten Quellen mittels eines Algorithmus möglichst flächendeckend angeordnet. Zu diesen vom Herausgeber vorgeschlagenen Faksimileausschnitten können beliebige andere Ausschnitte geladen oder nicht benötigte ausgeblendet werden. </p>
+                                    <p class="bodytext"> Durch die vollständig im Programm hinterlegten Faksimiles erhält der Benutzer die Möglichkeit, sich auch den Kontext eines vom Herausgeber gewählten Ausschnittes ansehen zu können.<br />Als Hilfsmittel für die genaue Betrachtung der Faksimiles stehen dem Benutzer eine Vergrößerungs- und Verkleinerungsfunktion und ein Verschiebewerkzeug zur Verfügung. Außerdem können die Taktzahlen in das Faksimile zur leichteren Orientierung eingeblendet werden. Einen wesentlichen Vorteil bietet auch die Möglichkeit, farbige Markierungen, die der Editor im Faksimile eingetragen hat, einzublenden, um z.B. autographe Anmerkungen, Korrekturen oder fremde Zusätze in den Quellen besser erkennen zu können.<br />Durch die flexibleren Betrachtungsmöglichkeiten der Quellen wird das Verständnis der Entscheidungen des Editors besser nachvollziehbar, zugleich kann der Benutzer auf der Grundlage eigener Interpretationen der Quellen zu abweichenden Entscheidungen kommen. Diese neu gewonnene Freiheit im Umgang mit der Edition soll zu einem lebendigeren Austausch zwischen Herausgeber und Leser (Betrachter) führen.</p>
+                                    <!--  Text: [end] -->
+                                </div>
+                            </div>
+                            <div class="csc-textpic-clear"><!-- --></div>
+                            <!--  Magazine Style Images: [end] -->
+                            <p class="csc-linkToTop">
+                                <a href="#">Nach oben</a>
+                            </p>
+                            <!--  CONTENT ELEMENT, uid:716/cag_magstyleimg_pi1 [end] -->
+                            <!--  CONTENT ELEMENT, uid:717/cag_magstyleimg_pi1 [begin] -->
+                            <a id="c717"></a>
+                            <!--  Magazine Style Images: [begin] -->
+                            <!--  Header: [begin] -->
+                            <div class="csc-header csc-header-n6">
+                                <h2>Edirom Prototyp Sommer 2004</h2>
+                            </div>
+                            <!--  Header: [end] -->
+                            <div class="csc-textpic csc-textpic-center csc-textpic-above">
+                                <div class="msi-blockwrap csc-textpic-imagewrap" style="width: 600px; border: 1px solid #eeeeee; background: #ffffff;">
+                                    <div style="float:left;">
+                                        <a href="uploads/pics/autograph_03.jpg" rel="lightbox[sb717]">
+                                            <img alt="Erste Seite aus dem Autograph von Webers Klarinettenquintetts" border="0" height="145" src="/edirom-projekt/typo3temp/pics/e05898aca0.jpg" style="margin: 2px; border: 1px solid #eeeeee; padding: 0px;" title="Erste Seite aus dem Autograph von Webers Klarinettenquintetts" width="193" />
+                                        </a>
+                                    </div>
+                                    <div style="float:left;">
+                                        <a href="uploads/pics/screenshot01_03.jpg" rel="lightbox[sb717]">
+                                            <img alt="Quellenausschnitte und Notentext - Screenshot 1" border="0" height="145" src="/edirom-projekt/typo3temp/pics/29ef9cb446.jpg" style="margin: 2px; border: 1px solid #eeeeee; padding: 0px;" title="Quellenausschnitte und Notentext - Screenshot 1" width="193" />
+                                        </a>
+                                    </div>
+                                    <div style="float:left;">
+                                        <a href="uploads/pics/erstdruck_03.jpg" rel="lightbox[sb717]">
+                                            <img alt="Erstdruck des Klarinettenquintetts, 1. Seite der Klarinettenstimme" border="0" height="145" src="/edirom-projekt/typo3temp/pics/58c84c0939.jpg" style="margin: 2px; border: 1px solid #eeeeee; padding: 0px;" title="Erstdruck des Klarinettenquintetts, 1. Seite der Klarinettenstimme" width="193" />
+                                        </a>
+                                    </div>
+                                    <div style="float:left;">
+                                        <a href="uploads/pics/screenshot02_03.jpg" rel="lightbox[sb717]">
+                                            <img alt="Quellenausschnitte und Notentext - Screenshot 2" border="0" height="220" src="/edirom-projekt/typo3temp/pics/58a860baaa.jpg" style="margin: 2px; border: 1px solid #eeeeee; padding: 0px;" title="Quellenausschnitte und Notentext - Screenshot 2" width="292" />
+                                        </a>
+                                    </div>
+                                    <div style="float:left;">
+                                        <a href="uploads/pics/screenshot03_03.jpg" rel="lightbox[sb717]">
+                                            <img alt="Screenshot der Zoomfunktion" border="0" height="220" src="/edirom-projekt/typo3temp/pics/f6913b225e.jpg" style="margin: 2px; border: 1px solid #eeeeee; padding: 0px;" title="Screenshot der Zoomfunktion" width="292" />
+                                        </a>
+                                    </div>
+                                    <div style="clear: both"></div>
+                                    <div class="csc-textpic-caption-c">
+                                        <p class="msi-caption csc-textpic-caption">[Die Screenshots sind der digitalen Edition des Klarinettenquintetts op. 34 entnommen, die als CD dem Gesamtausgabenband Carl Maria von Weber, Sämtliche Werke, Serie VI, Bd. 3 (erschienen Mainz 2005) beiliegt.]</p>
+                                    </div>
+                                </div>
+                                <div class="csc-textpic-text">
+                                    <!--  Text: [begin] -->
+                                    <p class="bodytext">&nbsp;</p>
+                                    <p class="bodytext">Alle jeweils relevanten Quellenausschnitte werden gleichzeitig neben dem Text der Kritischen Anmerkung dargestellt. Der Notentext der Neuedition erscheint stets in der unteren Bildschirmhälfte, die Quellenfaksimiles können variabel angeordnet werden. Die Rahmen, in denen die Quellenausschnitte stehen, sind von der Datenbank in Größe und Position gesteuert. Je nach Anzahl der notwendigen Faksimiles wird dabei aus einer Reihe vordefinierter Rahmen-Modelle ausgewählt, so dass die Bildschirmdarstellung flexibel genug bleibt, um den unterschiedlichen Gegebenheiten der Einzelanmerkungen Rechnung zu tragen. </p>
+                                    <p class="bodytext">Ausblendbare Markierungspfeile erlauben die schnellere Wahrnehmung der besprochenen Details. </p>
+                                    <p class="bodytext">Die einzelnen Fenster tragen eine Titelleiste, die jeweils pro Anmerkung zugewiesen werden kann. Im oberen Bereich wird als Navigationshilfe neben Satz-, Takt- und Anmerkungsnummern im linken größeren Fenster auch die jeweilige Rubrizierung der Anmerkung (betr. Bögen, Artikulation, Dynamik, Notation, Korrekturen des Komponisten oder des Herausgebers, Korrekturen im Zweitdruck usw.) ausgeworfen, die mit Hilfe der integrierten Suchfunktion gezielt angesteuert werden kann. Damit lassen sich gleichzeitig auch Einzelsätze oder Einzeltakte direkt anwählen. <br />Integriert wurde außerdem ein Schalter zur direkten Ansteuerung von Parallelstellen im Satz (PS). </p>
+                                    <p class="bodytext">Zum Funktionsumfang der Software gehört auch eine Zoomfunktion für die Faksimiles, die in 10er-Einheiten frei eingestellt werden kann. Damit lassen sich insbesondere aus Platzgründen nur in Form kleinerer Gesamtansichten integrierbare Faksimiles leicht vergrößern. Diese Faksimiles sind auf dem Bildschirm frei verschiebbar (oder ggf. auch in einen zweiten angeschlossenen Bildschirm transformierbar). </p>
+                                    <p class="bodytext">Soweit möglich, sollen alle relevanten Quellen auch in Form vollständiger Faksimiles auf der Edirom enthalten sein. Dies ist bei der CD zu Webers Klarinettenquintett der Fall. Damit erhält der Nutzer Arbeitsmöglichkeiten, die im Medium Buch aus Kostengründen völlig undenkbar sind.<br />Die integrierten Quellenfaksimiles können nicht nur in einer Gesamtansicht betrachtet werden, sondern wie im Editionsbericht mit der Zoom-Funktion der Software beliebig vergrößert werden. Die Qualität der Wiedergabe wird dabei in künftigen Bänden auch davon abhängen, welche Auflösung der jeweilige Quellenbesitzer für die CD-Wiedergabe zulässt. Bei einer langfristig zu verwirklichenden Internet-Lösung könnte auch direkt zur bewahrenden Bibliothek verlinkt werden. </p>
+                                    <p class="bodytext">Für eine detaillierte Beschreibung der Funktionsweisen werfen Sie bitte auch einen Blick in das <a class="download" href="/edirom-projekt/fileadmin/downloads/hilfe_edirom2004_1.pdf" title="Handbuch zur Edirom mit Webers  Klarinettenquintett">Handbuch</a> zu dieser <i>Edirom</i>-Version (pdf, 280kB). </p>
+                                    <!--  Text: [end] -->
+                                </div>
+                            </div>
+                            <div class="csc-textpic-clear"><!-- --></div>
+                            <!--  Magazine Style Images: [end] -->
+                            <p class="csc-linkToTop">
+                                <a href="#">Nach oben</a>
+                            </p>
+                            <!--  CONTENT ELEMENT, uid:717/cag_magstyleimg_pi1 [end] -->
+                        </div>
+                    </div>
+                    <div id="inner-top-content">
+                        <div id="middle-content"></div>
+                        <div id="left-content"></div>
+                    </div>
+                    <div id="inner-bottom-content">
+                        <div id="right-content"></div>
+                        <div id="border-content"></div>
+                    </div>
+                </div>
+                <div class="cleaner"></div>
+                <div id="footer">
+                    <div id="footer-box">
+                        <div id="footer-text">
+                            <div style="position:absolute;right:3px;bottom:3px;">Webseite archiviert am 1. Juni 2016</div>
+                            <div>
+                                <ul id="meta-menu">
+                                    <li>
+                                        <a href="/edirom-projekt/impressum/" title="Impressum">Impressum</a>
+                                    </li>
+                                    <li>
+                                        <a href="/edirom-projekt/sitemap/" title="Sitemap">Sitemap</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</div>
-
-
-
-
-</body>
+    </body>
 </html>
